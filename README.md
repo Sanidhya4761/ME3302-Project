@@ -1,18 +1,19 @@
 # ME3302-Project
 
-# TensorFlow Model (HDF5)
+# TensorFlow Model with Dataset Generation and HDF5 Format
 
-This repository contains a trained TensorFlow model saved in `.h5` (HDF5) format. You can use this model to make predictions or fine-tune for your own tasks.
+This repository contains:
+- A script to generate a dataset (`dataset_generation.py`)
+- A trained TensorFlow model saved in `.h5` (HDF5) format (`my_model.h5`)
 
-## 📁 Files
-
-- `model.h5` – Trained Keras model in HDF5 format.
+Follow the steps below to generate the dataset and use the model for inference.
 
 ---
 
 ## 🔧 Requirements
 
-Make sure you have Python and TensorFlow installed.
+Install the necessary Python packages:
 
 ```bash
-pip install tensorflow
+pip install tensorflow numpy pandas
+
