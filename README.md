@@ -6,7 +6,7 @@ This repository contains a trained TensorFlow model saved in `.h5` (HDF5) format
 
 ## 📁 Files
 
-- `my_model.h5` – Trained Keras model in HDF5 format.
+- `model.h5` – Trained Keras model in HDF5 format.
 
 ---
 
